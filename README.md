@@ -215,19 +215,9 @@ docker run --rm -it --env-file .env f5-ihealth-mcp 2>&1 | tee debug.log
 
 1. **Never commit credentials** - Keep `.env` in `.gitignore`
 2. **Use environment variables** - Don't hardcode credentials
-3. **Rotate credentials** - Periodically regenerate API credentials
+3. **Rotate credentials** - Periodically regenerate credentials
 4. **Container isolation** - Server runs as non-root user
-
-## License
-
-MIT License - See LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please submit issues and pull requests.
 
 ## Support
 
 - **F5 iHealth API Documentation:** https://clouddocs.f5.com/api/ihealth/
-- **F5 DevCentral Community:** https://community.f5.com/
-- **MCP Documentation:** https://modelcontextprotocol.io/
