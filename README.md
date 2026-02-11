@@ -91,7 +91,7 @@ docker build -t f5-ihealth-mcp .
 docker run --rm --env-file .env f5-ihealth-mcp
 ```
 
-Press `Ctrl+C` to stop.
+Just see if running the command is successful and no errors. Don't expect the container to run since it is suppose to be run by Claude.
 
 ## Claude Desktop Integration
 
