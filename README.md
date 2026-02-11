@@ -168,10 +168,9 @@ Once configured, you can ask Claude to interact with F5 iHealth:
 ### Authentication
 
 The server uses OAuth2 client credentials flow:
-1. Credentials are Base64 encoded
-2. Token is requested from F5's identity server
-3. Bearer token is cached for 30 minutes
-4. Token is automatically refreshed when expired
+1. Token is requested from F5's identity server
+2. Bearer token is cached for 30 minutes
+3. Token is automatically refreshed when expired
 
 ### Base URL
 ```
